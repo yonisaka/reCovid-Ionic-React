@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class IndoCovideService {
+class IndoCovidService {
     url = `https://indonesia-covid-19.mathdro.id/api`;
 
     getDataIndo(){
@@ -16,4 +16,4 @@ class IndoCovideService {
     }
 }
 
-export default IndoCovideService
+export default IndoCovidService

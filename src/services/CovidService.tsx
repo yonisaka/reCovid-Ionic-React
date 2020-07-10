@@ -7,9 +7,14 @@ class CovidService {
         return axios.get(`${this.url}`);
     }
 
+    getDataCountries(){
+        return axios.get(`${this.url}/countries/`);
+    }
+
     getDataIndonesia(){
         return axios.get(`${this.url}/countries/ID`);
     }
+    
     getDataConfirmed(){
         return axios.get(`${this.url}/confirmed`);
     }
